@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import Hoge from "./src/index";
+import { Button } from "./src/index";
 
 const Main: React.FC = () => {
-  return <Hoge />;
+  return <Button />;
 };
 
 ReactDOM.render(<Main />, document.getElementById("root"));

@@ -1,12 +1,5 @@
-import * as React from "react";
+import Button from "./react/Button/index";
 
-const Hoge: React.FC = () => {
-  return (
-    <div>
-      <h1>Title</h1>
-      <span>hoge</span>
-    </div>
-  );
+export default {
+  Button
 };
-
-export default Hoge;
